@@ -11,7 +11,6 @@ for (int i = 0; i < n; i++)
 IContainer bubble = new Bubble(mas);
 bubble.Sort();
 bubble.Foreach();
-Console.WriteLine();
 IContainer choice = new Choice(mas);
 choice.Sort();
 choice.Foreach();
